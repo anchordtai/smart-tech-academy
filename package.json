@@ -1,0 +1,14 @@
+{
+  "name": "smart-tech-academy",
+  "version": "1.0.0",
+  "description": "Website for Smart Tech Academy",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}

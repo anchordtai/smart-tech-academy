@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Smart Tech Academy</title>
+    <link href="output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-gray-100">
+    <header class="p-4 text-white bg-black">
+        <div class="container flex items-center justify-between mx-auto">
+            <div class="flex items-center">
+                <img src="Smartech-logo.jpg" alt="Logo" class="h-10 mr-3"> <!-- Placeholder logo -->
+                <h1 class="text-2xl font-bold">Smart Tech Academy</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="mr-4">Home</a>
+                <a href="about.html" class="mr-4">About Us</a>
+                <a href="register.html" class="mr-4">Register</a>
+                <a href="signup.html" class="mr-4">Sign Up</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Registration Form Section -->
+        <section class="py-20">
+            <div class="container max-w-lg mx-auto">
+                <h2 class="mb-10 text-4xl font-bold text-center">Register for A Course</h2>
+                <form action="#" method="POST" class="p-8 bg-white rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <label for="fullName" class="block mb-2 text-lg font-semibold">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block mb-2 text-lg font-semibold">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block mb-2 text-lg font-semibold">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+                    <div class="mb-4">
+                        <label for="address" class="block mb-2 text-lg font-semibold">Address</label>
+                        <textarea id="address" name="address" rows="4" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="course" class="block mb-2 text-lg font-semibold">Course</label>
+                        <select id="course" name="course" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            <option value="ca-course">UI/UX</option>
+                            <option value="ca-course">Front End Development</option>
+                            <option value="ca-course">Back End Development</option>
+                            <option value="ca-course">Digital Marketing</option>
+                            <option value="ca-course">Data Analytics</option>
+                            <option value="ca-course">SEO</option>
+                            <option value="ca-course">Graphic Design</option>
+                            <option value="ca-course">Certified Accountant (CA) Course</option>
+                            <!-- Add more courses as needed -->
+                        </select>
+                    </div>
+                    <button type="submit" class="px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-10 text-white bg-gray-800">
+        <div class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-3">
+            <div class="text-center md:text-left">
+                <h3 class="mb-4 text-xl font-bold">Contact Us</h3>
+                <p><i class="mr-2 fas fa-phone-alt"></i> +1 (123) 456-7890</p>
+                <p><i class="mr-2 fas fa-envelope"></i> info@smarttechacademy.com</p>
+                <p><i class="mr-2 fas fa-map-marker-alt"></i> 123 Tech Street, Tech City, TC 12345</p>
+            </div>
+            <div class="text-center">
+                <h3 class="mb-4 text-xl font-bold">Follow Us</h3>
+                <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="text-center md:text-right">
+                <h3 class="mb-4 text-xl font-bold">Chat With Us</h3>
+                <button class="px-4 py-2 text-white bg-blue-600 rounded-lg">Live Chat</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

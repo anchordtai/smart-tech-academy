@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tech Academy</title>
+    <link href="output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-gray-100">
+    <header class="p-4 text-white bg-black">
+        <div class="container flex items-center justify-between mx-auto">
+            <div class="flex items-center">
+                <img src="Smartech-logo.jpg" alt="Logo" class="h-10 mr-3"> <!-- Placeholder logo -->
+                <h1 class="text-2xl font-bold">Smart Tech Academy</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="mr-4">Home</a>
+                <a href="about.html" class="mr-4">About Us</a>
+                <a href="register.html" class="mr-4">Register</a>
+                <a href="signup.html" class="mr-4">Sign Up</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative flex items-center justify-center h-screen text-center text-white">
+            <video class="hero-video" src="smart-tech-academy-video.mp4" autoplay muted loop></video> <!-- Placeholder video -->
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10">
+                <h2 class="mb-4 text-5xl font-bold">Welcome to Smart Tech Academy</h2>
+                <p class="mb-8 text-xl">Your journey to becoming a tech expert starts here.</p>
+                <a href="register.html" class="px-8 py-4 font-semibold text-blue-600 bg-white rounded-lg">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Our Courses Section -->
+        <section class="py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="mb-10 text-4xl font-bold">Our Courses</h2>
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">UI/UX Design</h3>
+                        <img src="image9.jpeg" alt="UI/UX Design" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Learn the principles of user experience and interface design to create stunning, user-friendly applications.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Front End Development</h3>
+                        <img src="image6.jpg" alt="Front End Development" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Master HTML, CSS, and JavaScript to build dynamic and responsive web applications.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Back End Development</h3>
+                        <img src="image7.jpg" alt="Back End Development" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Gain skills in server-side programming and database management to support the front end of web applications.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Digital Marketing</h3>
+                        <img src="smart1-image.jpg" alt="Digital Marketing" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Learn strategies to effectively promote products and services online and drive business growth.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Cyber Security</h3>
+                        <img src="image4.jpg" alt="Cyber Security" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Understand the fundamentals of protecting systems, networks, and data from cyber threats.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Graphic Design</h3>
+                        <img src="image10.jpeg" alt="Graphic Design" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Explore design concepts and software to create visually appealing graphics and layouts.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">SEO</h3>
+                        <img src="image8.jpeg" alt="SEO" class="object-cover w-full h-48 mb-4 rounded-lg">
+                        <p>Learn techniques to optimize websites for search engines and improve their visibility online.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                      <h3 class="mb-4 text-2xl font-bold">Data Analytics</h3>
+                      <img src="image11.jpeg" alt="SEO" class="object-cover w-full h-48 mb-4 rounded-lg">
+                      <p>Learn techniques to  converts raw data into actionable insights. It includes a range of tools, technologies.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="mb-10 text-4xl font-bold">Why Choose Us?</h2>
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Expert Instructors</h3>
+                        <p>Learn from industry experts who have real-world experience.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Flexible Learning</h3>
+                        <p>Study at your own pace with our flexible learning options.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="mb-4 text-2xl font-bold">Job Placement</h3>
+                        <p>Get support in finding a job after completing your course.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-gray-200">
+            <div class="container mx-auto text-center">
+                <h2 class="mb-10 text-4xl font-bold">What Our Students Say</h2>
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <p class="mb-4">"Smart Tech Academy has transformed my career. The instructors are amazing and the curriculum is top-notch."</p>
+                        <h3 class="text-xl font-bold">John Doe</h3>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <p class="mb-4">"I love the flexibility of learning at my own pace. The support team is always there to help when I need it."</p>
+                        <h3 class="text-xl font-bold">Jane Smith</h3>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <p class="mb-4">"Thanks to Smart Tech Academy, I landed my dream job in tech. I couldn't be happier!"</p>
+                        <h3 class="text-xl font-bold">Emily Johnson</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="py-20 text-white bg-blue-600">
+            <div class="container mx-auto text-center">
+                <h2 class="mb-4 text-4xl font-bold">Ready to Start Your Journey?</h2>
+                <p class="mb-8 text-xl">Join thousands of students who have found success with Smart Tech Academy.</p>
+                <a href="register.html" class="px-8 py-4 font-semibold text-blue-600 bg-white rounded-lg">Register Now</a>
+            </div>
+        </section>
+    <!-- Contact Section -->
+    
+</main>
+
+<footer class="py-10 text-white bg-gray-800">
+  <div class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-3">
+      <div class="text-center md:text-left">
+          <h3 class="mb-4 text-xl font-bold">Contact Us</h3>
+          <p><i class="mr-2 fas fa-phone-alt"></i> +1 (123) 456-7890</p>
+          <p><i class="mr-2 fas fa-envelope"></i> info@smarttechacademy.com</p>
+          <p><i class="mr-2 fas fa-map-marker-alt"></i> 123 Tech Street, Tech City, TC 12345</p>
+      </div>
+      <div class="text-center">
+          <h3 class="mb-4 text-xl font-bold">Follow Us</h3>
+          <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="text-center md:text-right">
+          <h3 class="mb-4 text-xl font-bold">Chat With Us</h3>
+          <button class="px-4 py-2 text-white bg-blue-600 rounded-lg">Live Chat</button>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
